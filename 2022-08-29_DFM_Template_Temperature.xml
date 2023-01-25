@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dcc:digitalCalibrationCertificate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcc="https://ptb.de/dcc" xmlns:si="https://ptb.de/si" xsi:schemaLocation="https://ptb.de/dcc https://ptb.de/dcc/v3.1.1/dcc.xsd" schemaVersion="3.1.2">
+	<!--        
+			DCC - Digital Calibration Certificate
+            Copyright (c) 2019 - 2022 Physikalisch-Technische Bundesanstalt
+
+            This XML dataset is free software: you can redistribute it and/or modify
+            it under the terms of the GNU Lesser General Public License as published by
+            the Free Software Foundation, version 3 of the License.
+
+            This XSD is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+            GNU Lesser General Public License for more details.
+
+            The development of minimum requirements for a digital calibration certificate (DCC) is partially funded and
+            supported by the joint research project EMPIR 17IND02 (title: SmartCom).
+            This project (17IND02) has received funding from the EMPIR programme co-financed by the Participating States
+            and from the European Union's Horizon 2020 research and innovation programme.
+            The further development of the digital calibration certificate (DCC) is partly supported by the lighthouse
+            project GEMIMEG-II (GEMIMEG 01 MT20001E) funded by the German Federal Ministry for Economic Affairs and
+            Energy (BMWi) and the project "International Standard Accident Number" (ISAN) funded by the Niedersächsiches
+            Vorab initiative of the Volkswagen Foundation (VolkswagenStiftung).
+
+
+            Documentation: https://ptb.de/dcc
+ 
+			ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION! ATTENTION!
+
+			This is not a real calibration certificate. It is invalid.
+
+			Draft Good Practise Temperature
+			
+			GP_DCC_temperature_simplified_1.2
+			=================================
+
+ -->
+	<dcc:administrativeData>
+		<dcc:dccSoftware>
+			<dcc:software>
+				<dcc:name>
+					<dcc:content>§DFM_Software_Name§</dcc:content>
+				</dcc:name>
+				<dcc:release>§DFM_Software_Version§</dcc:release>
+			</dcc:software>
+		</dcc:dccSoftware>
+		<dcc:coreData>
+			<dcc:countryCodeISO3166_1>DK</dcc:countryCodeISO3166_1>
+			<dcc:usedLangCodeISO639_1>en</dcc:usedLangCodeISO639_1>
+			<dcc:usedLangCodeISO639_1>de</dcc:usedLangCodeISO639_1>
+			<dcc:usedLangCodeISO639_1>da</dcc:usedLangCodeISO639_1>
+			<dcc:mandatoryLangCodeISO639_1>en</dcc:mandatoryLangCodeISO639_1>
+			<dcc:uniqueIdentifier>§DFM_Unique_ID§</dcc:uniqueIdentifier>
+			<dcc:identifications>
+				<dcc:identification>
+					<dcc:issuer>calibrationLaboratory</dcc:issuer>
+					<dcc:value>§DFM_CertificateNo§</dcc:value>
+					<dcc:name>
+						<dcc:content lang="de">Auftrags Nr.</dcc:content>
+						<dcc:content lang="en">Certificate No</dcc:content>
+					</dcc:name>
+				</dcc:identification>
+				<dcc:identification>
+					<dcc:issuer>customer</dcc:issuer>
+					<dcc:value>§DFM_OrderNo§</dcc:value>
+					<dcc:name>
+						<dcc:content lang="en">PO</dcc:content>
+					</dcc:name>
+				</dcc:identification>
+			</dcc:identifications>
+			<dcc:receiptDate>§DFM_ArrivalDate§</dcc:receiptDate>
+			<dcc:beginPerformanceDate>§DFM_StartDate§</dcc:beginPerformanceDate>
+			<dcc:endPerformanceDate>§DFM_EndDate§</dcc:endPerformanceDate>
+			<dcc:performanceLocation>laboratory</dcc:performanceLocation>
+		</dcc:coreData>
+		<dcc:items>
+			<dcc:name>
+				<dcc:content lang="en">§DFM_Item1_Description§</dcc:content>
+				<dcc:content lang="de"/>
+				<dcc:content lang="da"/>
+			</dcc:name>
+			<dcc:item>
+				<dcc:name>
+					<dcc:content lang="en">§DFM_Item1_Name§</dcc:content>
+					<dcc:content lang="de">Temperatur-Fühler</dcc:content>
+					<dcc:content lang="da">Temperaturføler</dcc:content>
+				</dcc:name>
+				<dcc:manufacturer>
+					<dcc:name>
+						<dcc:content>§DFM_Item1_Maufacturer§</dcc:content>
+					</dcc:name>
+				</dcc:manufacturer>
+				<dcc:model>§DFM_Item1_Model§</dcc:model>
+				<dcc:identifications>
+					<dcc:identification>
+						<dcc:issuer>manufacturer</dcc:issuer>
+						<dcc:value>§DFM_Item1_SerialNo§</dcc:value>
+						<dcc:name>
+							<dcc:content lang="de">Serien Nr.</dcc:content>
+							<dcc:content lang="en">Serial no.</dcc:content>
+						</dcc:name>
+					</dcc:identification>
+					<dcc:identification>
+						<dcc:issuer>customer</dcc:issuer>
+						<dcc:value>§DFM_Item1_ID§</dcc:value>
+						<dcc:name>
+							<dcc:content lang="de">Messmittel Nr.</dcc:content>
+							<dcc:content lang="en">Equipment ID</dcc:content>
+						</dcc:name>
+					</dcc:identification>
+				</dcc:identifications>
+			</dcc:item>
+		</dcc:items>
+		<dcc:calibrationLaboratory>
+			<dcc:contact>
+				<dcc:name>
+					<dcc:content>§DFM_CalLab_CompanyName§</dcc:content>
+				</dcc:name>
+				<dcc:eMail>§DFM_CalLab_Email§</dcc:eMail>
+				<dcc:phone>§DFM_CalLab_Phone§</dcc:phone>
+				<dcc:location>
+					<dcc:city>§DFM_CalLab_City§</dcc:city>
+					<dcc:countryCode>§DFM_CalLab_Country§</dcc:countryCode>
+					<dcc:postCode>§DFM_CalLab_PostalCode§</dcc:postCode>
+					<dcc:street>§DFM_CalLab_Street1§</dcc:street>
+					<dcc:streetNo>§DFM_CalLab_Street_No§</dcc:streetNo>
+					<dcc:further>
+						<dcc:name>
+							<dcc:content lang="en">Webpage</dcc:content>
+							<dcc:content lang="de"/>
+							<dcc:content lang="da"/>
+						</dcc:name>
+						<dcc:content>§DFM_CalLab_Webpage§</dcc:content>
+					</dcc:further>
+				</dcc:location>
+			</dcc:contact>
+		</dcc:calibrationLaboratory>
+		<dcc:respPersons>
+			<dcc:respPerson>
+				<dcc:person>
+					<dcc:name>
+						<dcc:content>§DFM_SignedBy§</dcc:content>
+					</dcc:name>
+				</dcc:person>
+				<dcc:mainSigner>true</dcc:mainSigner>
+			</dcc:respPerson>
+		</dcc:respPersons>
+		<dcc:customer>
+			<dcc:name>
+				<dcc:content>§DFM_Customer_CompanyName§</dcc:content>
+			</dcc:name>
+			<dcc:eMail>§DFM_Customer_Email§</dcc:eMail>
+			<dcc:location>
+				<dcc:city>§DFM_Customer_City§</dcc:city>
+				<dcc:countryCode>§DFM_Customer_Country§</dcc:countryCode>
+				<dcc:postCode>§DFM_Customer_PostalCode§</dcc:postCode>
+				<dcc:street>§DFM_Customer_CompanyStreet1§</dcc:street>
+				<dcc:streetNo>§DFM_Customer_CompanyStreet_No§</dcc:streetNo>
+				<dcc:further>
+					<dcc:name>
+						<dcc:content lang="en">Customer ATT</dcc:content>
+						<dcc:content lang="de"/>
+						<dcc:content lang="da"/>
+					</dcc:name>
+					<dcc:content lang="en">§DFM_Customer_Att§</dcc:content>
+					<dcc:content lang="de"/>
+					<dcc:content lang="da"/>
+				</dcc:further>
+			</dcc:location>
+		</dcc:customer>
+		<dcc:statements>
+			<dcc:statement>
+			<dcc:traceable>§DFM_Accreditation_traceable§</dcc:traceable>
+				<dcc:norm>ISO/IEC 17025:2018-03</dcc:norm>
+				<dcc:reference>§DFM_Accreditation_CALRegNo§</dcc:reference>
+				<dcc:declaration>
+					<dcc:content lang="en">§DFM_Accreditation_Statement§</dcc:content>
+					<dcc:content lang="de"/>
+					<dcc:content lang="da"/>
+				</dcc:declaration>
+				<dcc:valid>§DFM_Accreditation_valid§</dcc:valid>
+				<dcc:respAuthority>
+					<dcc:name>
+						<dcc:content lang="en">§DFM_Accreditation_Body§</dcc:content>
+						<dcc:content lang="da"/>
+					</dcc:name>
+					<dcc:eMail>info@danak.dk</dcc:eMail>
+					<dcc:location>
+						<dcc:postCode>0000</dcc:postCode>
+					</dcc:location>
+				</dcc:respAuthority>
+			</dcc:statement>
+			<dcc:statement>
+				<dcc:declaration>
+					<dcc:name>
+						<dcc:content lang="en">Terms of use</dcc:content>
+						<dcc:content lang="de"/>
+						<dcc:content lang="da"/>
+					</dcc:name>
+					<dcc:content lang="en">§DFM_TermsOfUse_Statement§</dcc:content>
+					<dcc:content lang="de"/>
+					<dcc:content lang="da"/>
+				</dcc:declaration>
+			</dcc:statement>
+			<dcc:statement>
+				<dcc:declaration>
+					<dcc:name>
+						<dcc:content lang="en">Customer defined datatags</dcc:content>
+					</dcc:name>
+					<dcc:content lang="en">This DCC contains tags to specific data specified by the customer: 
+						Xpath to the list of datakeys is: /dcc:digitalCalibrationCertificate/dcc:comment/si:list/si:label
+						Xpath to the list of Xpaths to the specified data is: /dcc:digitalCalibrationCertificate/dcc:comment/si:list/si:list/si:label
+					</dcc:content>
+				</dcc:declaration>
+			</dcc:statement>
+		</dcc:statements>
+	</dcc:administrativeData>
+	<dcc:measurementResults>
+		<dcc:measurementResult>
+			<dcc:name>
+				<dcc:content lang="de"/>
+				<dcc:content lang="en">§DFM_Item1_Result1_Name_en§</dcc:content>
+				<dcc:content lang="da">§DFM_Item1_Result1_Name_da§</dcc:content>
+			</dcc:name>
+			<dcc:usedMethods>
+				<dcc:usedMethod refType="gp_temperatureSensor">
+					<dcc:name>
+						<dcc:content lang="de"/>
+						<dcc:content lang="en">Applied method</dcc:content>
+						<dcc:content lang="da">Anvendt metode</dcc:content>
+					</dcc:name>
+					<dcc:description>
+						<dcc:content lang="en">§DFM_Procedure§</dcc:content>
+					</dcc:description>
+					<dcc:norm>§DFM_Item1_Norm§</dcc:norm>
+				</dcc:usedMethod>
+				<dcc:usedMethod refType="gp_temperatureSensor">
+					<dcc:name>
+						<dcc:content lang="en">Uncertainty Statement</dcc:content>
+						<dcc:content lang="da">Usikkerheds Angivelse</dcc:content>
+					</dcc:name>
+					<dcc:description>
+						<dcc:content lang="en">§DFM_Item1_Result1_Display1_Uncertainty_Description§</dcc:content>
+					</dcc:description>
+				</dcc:usedMethod>
+			</dcc:usedMethods>
+			<dcc:measuringEquipments>
+				<dcc:measuringEquipment refType="basic_normalUsed">
+					<dcc:name>
+						<dcc:content lang="de">Pt 100 Widerstandsthermometer</dcc:content>
+						<dcc:content lang="en">§DFM_Reference1_name§</dcc:content>
+					</dcc:name>
+					<dcc:description>
+						<dcc:name>
+							<dcc:content lang="en">Comment</dcc:content>
+						</dcc:name>
+						<dcc:content lang="en">§DFM_Reference_Statement§</dcc:content>
+					</dcc:description>
+					<dcc:manufacturer>
+						<dcc:name>
+							<dcc:content lang="de">§DFM_Reference1_manufacturer§</dcc:content>
+						</dcc:name>
+					</dcc:manufacturer>
+					<dcc:model>§DFM_Reference1_model§</dcc:model>
+					<dcc:identifications>
+						<dcc:identification>
+							<dcc:issuer>manufacturer</dcc:issuer>
+							<dcc:value>§DFM_Reference1_serial§</dcc:value>
+						</dcc:identification>
+						<dcc:identification>
+							<dcc:issuer>calibrationLaboratory</dcc:issuer>
+							<dcc:value>§DFM_Reference1_ID§</dcc:value>
+						</dcc:identification>
+					</dcc:identifications>
+				</dcc:measuringEquipment>
+			</dcc:measuringEquipments>
+			<dcc:influenceConditions>
+				<dcc:influenceCondition refType="basic_temperature">
+					<dcc:name>
+						<dcc:content lang="de">Umgebungsbedingung Temperatur</dcc:content>
+						<dcc:content lang="en">Ambient condition temperature</dcc:content>
+						<dcc:content lang="da">Omgivelsestemperatur</dcc:content>
+					</dcc:name>
+					<dcc:description>
+						<dcc:content lang="de"/>
+						<dcc:content lang="en">§DFM_LabTemperature_Description§</dcc:content>
+						<dcc:content lang="da"/>
+					</dcc:description>
+					<dcc:data>
+						<dcc:quantity refType="basic_temperature">
+							<dcc:name>
+								<dcc:content lang="de">Temperatur min</dcc:content>
+								<dcc:content lang="en">temperature</dcc:content>
+								<dcc:content lang="da"/>
+							</dcc:name>
+							<si:hybrid>
+								<si:real>
+									<si:value>§DFM_LabTemperature_Value§</si:value>
+									<si:unit>§DFM_LabTemperature_Unit§</si:unit>
+									<si:expandedUnc>
+										<si:uncertainty>§DFM_LabTemperature_U§</si:uncertainty>
+										<si:coverageFactor>2</si:coverageFactor>
+										<si:coverageProbability>0.95</si:coverageProbability>
+									</si:expandedUnc>
+								</si:real>
+							</si:hybrid>
+						</dcc:quantity>
+					</dcc:data>
+				</dcc:influenceCondition>
+			</dcc:influenceConditions>
+			<dcc:results>
+				<dcc:result refType="gp_measuringResult1">
+					<dcc:name>
+						<dcc:content lang="de">Messergebnisse</dcc:content>
+						<dcc:content lang="en">Measuring results</dcc:content>
+						<dcc:content lang="da"/>
+					</dcc:name>
+					<dcc:data>
+						<dcc:list refType="gp_table1">
+							<dcc:quantity refType="basic_referenceValue">
+								<dcc:name>
+									<dcc:content lang="de">Bezugswert</dcc:content>
+									<dcc:content lang="en">Reference value</dcc:content>
+								</dcc:name>
+								<si:hybrid>
+									<si:realListXMLList>
+										<si:valueXMLList>§DFM_Item1_Result1_ReferenceValue§</si:valueXMLList>
+										<si:unitXMLList>§DFM_Item1_Result1_ReferenceUnit§</si:unitXMLList>
+									</si:realListXMLList>
+								</si:hybrid>
+								<dcc:measurementMetaData>
+									<dcc:metaData refType="basic_calibrationValue">
+										<dcc:declaration>
+											<dcc:content lang="de">Kalibrierpunkt</dcc:content>
+											<dcc:content lang="en">Calibration value</dcc:content>
+										</dcc:declaration>
+										<dcc:data>
+											<dcc:quantity>
+												<si:hybrid>
+													<si:realListXMLList>
+														<si:valueXMLList>§DFM_Item1_Result1_Reference_Value_K§</si:valueXMLList>
+														<si:unitXMLList>§DFM_Item1_Result1_Reference_Unit_K§</si:unitXMLList>
+													</si:realListXMLList>
+													<si:realListXMLList>
+														<si:valueXMLList>§DFM_Item1_Result1_Reference_Value_degC§</si:valueXMLList>
+														<si:unitXMLList>§DFM_Item1_Result1_Reference_Unit_degC§</si:unitXMLList>
+													</si:realListXMLList>
+												</si:hybrid>
+											</dcc:quantity>
+										</dcc:data>
+									</dcc:metaData>
+								</dcc:measurementMetaData>
+							</dcc:quantity>
+							<dcc:quantity refType="basic_measuredValue">
+								<dcc:name>
+									<dcc:content lang="de">Angezeigter Messwert Kalibriergegenstand</dcc:content>
+									<dcc:content lang="en">Indicated measured value probe</dcc:content>
+								</dcc:name>
+								<si:hybrid>
+									<si:realListXMLList>
+										<si:valueXMLList>§DFM_Item1_Result1_Display1_Value§</si:valueXMLList>
+										<si:unitXMLList>§DFM_Item1_Result1_Display1_Unit§</si:unitXMLList>
+										<si:expandedUncXMLList>
+											<si:uncertaintyXMLList>§DFM_Item1_Result1_Display1_Uncertainty_Value§</si:uncertaintyXMLList>
+											<si:coverageFactorXMLList>§DFM_Item1_Result1_Display1_Uncertainty_k§</si:coverageFactorXMLList>
+											<si:coverageProbabilityXMLList>§DFM_Item1_Result1_Display1_Uncertainty_Conf§</si:coverageProbabilityXMLList>
+										</si:expandedUncXMLList>
+									</si:realListXMLList>
+									<si:realListXMLList>
+										<si:valueXMLList>§DFM_Item1_Result1_Display2_Value§</si:valueXMLList>
+										<si:unitXMLList>§DFM_Item1_Result1_Display2_Unit§</si:unitXMLList>
+										<si:expandedUncXMLList>
+											<si:uncertaintyXMLList>§DFM_Item1_Result1_Display2_Uncertainty_Value§</si:uncertaintyXMLList>
+											<si:coverageFactorXMLList>§DFM_Item1_Result1_Display2_Uncertainty_k§</si:coverageFactorXMLList>
+											<si:coverageProbabilityXMLList>§DFM_Item1_Result1_Display2_Uncertainty_Conf§</si:coverageProbabilityXMLList>
+										</si:expandedUncXMLList>
+									</si:realListXMLList>
+								</si:hybrid>
+							</dcc:quantity>
+						</dcc:list>
+					</dcc:data>
+				</dcc:result>
+			</dcc:results>
+		</dcc:measurementResult>
+	</dcc:measurementResults>
+	<dcc:comment>
+		<si:list>
+			<si:label>§DFMXPATH_keys§</si:label>
+			<si:list>
+				<si:label>§DFMXPATH_xpaths§</si:label>
+				<si:realList>
+					<si:real>
+						<si:value>1.0</si:value>
+					</si:real>
+				</si:realList>
+			</si:list>
+		</si:list>
+	</dcc:comment>
+</dcc:digitalCalibrationCertificate>
